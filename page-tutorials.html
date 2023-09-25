@@ -1,0 +1,126 @@
+<!-- common header (paste on every pages) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Google tag (gtag.js) analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TZS1ES867V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-TZS1ES867V');
+    </script>
+    <!-- end google tag -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+
+    <title>smallRoomZ</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/override.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- analytics -->
+    <!--
+    <script>
+      function handleOutboundLinkClicks(eventLabel) {
+        // create tracker
+        ga('create', 'UA-119828858-1', 'auto');
+        // send event notification
+        ga('send', 'event', {
+          eventCategory: 'File',
+          eventAction: 'download',
+          eventLabel: eventLabel,
+        });
+      }
+    </script>
+    -->
+
+</head>
+
+<!-- common header (paste on every pages) -->
+
+
+<body>
+
+    <!-- common navbar (paste on every pages) -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <!-- <a id="home-logo-link" href="index.html" class="navbar-left"><img class="img-responsive" style="width:100px; margin-top:9px; margin-bottom:2px; margin-left:9px; margin-right:20px" src="img/roomz_logo.png" ></a> -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="page-videos.html">Videos</a> </li>
+                    <li> <a href="page-tutorials.html">Tutorials</a> </li>
+                    <li> <a href="page-references.html">References</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	
+    <!-- common navbar (paste on every pages) -->
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row" id="tuto-docu">
+            <div class="col-lg-12 text-justify">
+                <h2>Full Documentation</h2>
+
+                <p>The plug-in documentation is available in the <a href="release/user-manual.pdf" download>user-manual.pdf</a>.</p>
+
+            </div>
+        </div>
+
+        <div class="row" id="signal-flow">
+            <div class="col-lg-12 text-justify">
+                <h2>Signal Routing</h2>
+
+                <p>The plug-in can be used in any DAW that supports tracks with 4 input and output channels.
+				Inputs 1 and 2 are supplied with the live input of the signal to be played in the scale model.
+				Inputs 3 and 4 are the returns from scale model.
+				Outputs 1 and 2 are the final auralisation while outputs 3 and 4 are the signal to be sent to the scale model.</p>
+				
+				<p>Note: If only a single source and microphone are being used in the scale model these should be routed to the inputs 1 and 3 respectively. Similarly, output 1 will be the auralisation while output 3 is the scale model send signal.</p>
+
+                <img class="img-responsive center-block" style="margin-top: 0px; margin-bottom: 0px; max-height: 500px" src="img/signal_flow_example.jpg">
+
+
+            </div>
+        </div>
+
+    </div> <!-- /.container -->
+
+</body>
+
+</html>

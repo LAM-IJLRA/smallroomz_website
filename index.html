@@ -1,0 +1,168 @@
+<!-- common header (paste on every pages) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Google tag (gtag.js) analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TZS1ES867V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-TZS1ES867V');
+    </script>
+    <!-- end google tag -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+
+    <title>smallRoomZ</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/override.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- analytics -->
+    <!--
+    <script>
+      function handleOutboundLinkClicks(eventLabel) {
+        // create tracker
+        ga('create', 'UA-119828858-1', 'auto');
+        // send event notification
+        ga('send', 'event', {
+          eventCategory: 'File',
+          eventAction: 'download',
+          eventLabel: eventLabel,
+        });
+      }
+    </script>
+    -->
+
+</head>
+
+<!-- common header (paste on every pages) -->
+
+
+<body>
+
+    <!-- common navbar (paste on every pages) -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <!-- <a id="home-logo-link" href="index.html" class="navbar-left"><img class="img-responsive" style="width:100px; margin-top:9px; margin-bottom:2px; margin-left:9px; margin-right:20px" src="img/roomz_logo.png" ></a> -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="page-videos.html">Videos</a> </li>
+                    <li> <a href="page-tutorials.html">Tutorials</a> </li>
+                    <li> <a href="page-references.html">References</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- common navbar (paste on every pages) -->
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row" id="head">
+
+            <div class="col-lg-12 text-left">
+                <h1 style="color: #73899a;">smallRoomZ</h1>
+            </div>
+            <div class="col-lg-12 text-justify">
+                <p> Real-time auralisation of scale models</p>
+            </div>
+
+            <p> </p> <!-- insert line break -->
+
+            <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 text-center">
+                <p style="margin-top: 20px; margin-bottom: 0px;">
+                    <i>I am sitting in a small room...</i>
+                </p>
+                <img class="img-responsive center-block" style="margin-top: 0px; margin-bottom: 0px; max-height: 500px" src="img/smallRoomZ-gui.jpg">
+            </div>
+
+
+             <div class="col-sm-12 text-justify">
+                <p>
+					smallRoomZ aims to help make working with scale models for real-time auralisation accessible to acousticians and engineers working in <a href="https://en.wikipedia.org/wiki/Digital_audio_workstation">DAW</a> environments.
+                    smallRoomZ enables the user to make changes to the their scale model and hear the changes to the acoustics in real-time, providing instant feedback on the influence of a change of materials or positioning.
+					The plugin allows two sources to be played simultaneously. It also allows recording with two microphones, allowing for binaural rendering through the use of a <a href="https://pyrapple.github.io/pages/scale-head.html"> scale model dummy head </a>. The processing includes several useful DSP tools to improve the quality of the rendering, such as custom correction filters for the speakers and microphones used.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="row" id="download">
+            <div class="col-lg-12 text-justify">
+                <h2>Download</h2>
+                    <p>Download files and follow instructions according to your architecture: </p>
+
+                    <ul class="airy-list">
+                        <li> <i class="fa fa-apple fa-1x"> </i> MacOS Intel (VST3): Coming Soon<!--<a href="release/roomz-macos64-intel-v1.0.1.zip" download onclick="handleOutboundLinkClicks('OSX BUNDLE');">roomz-macos64-intel-v1.0.1.zip</a>--></li>
+
+                        <li> <i class="fa fa-apple fa-1x"> </i> MacOS Silicon (VST3): Coming Soon<!--<a href="release/roomz-macos64-silicon-v1.0.1.zip" download onclick="handleOutboundLinkClicks('OSX BUNDLE');">roomz-macos64-silicon-v1.0.1.zip</a>--></li>
+
+                        <li> <i class="fa fa-windows fa-1x"> </i> Windows 64 (VST3): Coming Soon<!--<a href="release/roomz-win64-v1.0.1.zip" download onclick="handleOutboundLinkClicks('WIN BUNDLE');">roomz-win64-v1.0.1.zip</a>--></li>
+
+                    </ul>
+
+            </div>
+        </div>
+
+        <div class="row" id="about">
+            <div class="col-lg-12 text-justify">
+                <h2>About</h2>
+
+                <p>
+                    <b>License</b>: The smallRoomZ plugin is released under the <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.
+                </p>
+
+                <p>
+                    <b>Credits</b>:
+                    smallRoomZ was developed with funding from the European Union’s Joint Programming Initiative on Cultural Heritage project <a href="http://phe.pasthasears.eu">PHE</a> (The Past Has Ears).
+                    <br>
+                </p>
+				<p>
+                    The smallRoomZ plugin was developed by Peter Stitt and the project is supervised by <a href="http://www.lam.jussieu.fr/Membres/Katz/index.php?page=accueil">Brian F.G. Katz</a>.
+                </p>
+            </div>
+
+        </div>
+
+    </div> <!-- /.container -->
+
+
+</body>
+
+</html>

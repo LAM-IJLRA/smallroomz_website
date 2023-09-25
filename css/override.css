@@ -1,0 +1,155 @@
+/*
+ * Where personal modif (bootstrap override, new classes, etc.) go.
+ */
+
+body{
+  background-color: rgb(255, 255, 255);
+  padding-top: 70px;
+}
+
+p, li {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+th, td {
+  font-size: 17px;
+  font-weight: 450;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+  text-align: left;
+}
+
+.faq-q {
+  font-weight: 600;
+}
+
+.faq-a {
+  margin-left: 30px;
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+
+ul.airy-list {
+  list-style-type: none;
+}
+ul.airy-list > li {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.lead {
+  font-size: 18px;
+  font-weight: 350;
+}
+
+pre {
+    white-space:normal;
+}
+
+code {
+  font-size: 13px;
+  font-weight: 300;
+  background: #f5f5f5;
+  color:black;
+}
+
+.img-responsive {
+    /*margin: 0 auto; // align center*/
+    margin-top: 20px;
+    margin-bottom: 30px;
+    /*margin-right: 0px;
+    margin-left: 0px;    */
+}
+
+.embed-responsive {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.code-header {
+  margin-bottom:5;
+}
+
+.row:target {
+    padding-top: 40px;
+}
+
+button {
+  color: black;
+  background: white;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+  border-radius: 6px;
+  border-width: 1px;
+  border: 1px solid rgb(200, 200, 200);
+  outline: none;
+}
+
+button:hover {
+  background: rgb(245, 245, 245);
+}
+
+button:disabled {
+  background: repeating-linear-gradient(
+    -45deg,
+    white,
+    white 10px,
+    rgb(200, 200, 200) 10px,
+    rgb(200, 200, 200) 12px
+  );
+}
+
+/* table: all but first row/column */
+th:not(:first-child), td:not(:first-child) {
+  text-align: center;
+}
+
+/* hide anaglyph home */
+@media only screen and (max-width: 767px) {
+  #home-logo-link {
+    display: none;
+  }
+}
+/* add anaglyph home to navbar collapsed menu when anaglyph logo disapeared */
+@media only screen and (min-width: 768px) {
+  #home-navbar-replacement {
+    display: none;
+  }
+}
+
+/* avoid weird misalignement on navbar in collapsed mode */
+.container > .navbar-header {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.navbar-toggle {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/*
+.navbar-inverse {
+  background-color: #fafafa;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #0e0e0e;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #b7b7b7;
+  background-color: transparent;
+}*/
