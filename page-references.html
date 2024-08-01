@@ -25,21 +25,15 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- analytics -->
-    <!--
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G5SGN0XF0F"></script>
     <script>
-      function handleOutboundLinkClicks(eventLabel) {
-        // create tracker
-        ga('create', 'UA-119828858-1', 'auto');
-        // send event notification
-        ga('send', 'event', {
-          eventCategory: 'File',
-          eventAction: 'download',
-          eventLabel: eventLabel,
-        });
-      }
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-G5SGN0XF0F');
     </script>
-    -->
 
 </head>
 
